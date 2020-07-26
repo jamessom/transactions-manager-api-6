@@ -32,12 +32,12 @@ transactionsRouter.post('/', async (request, response) => {
   return response.json(transaction);
 });
 
-transactionsRouter.delete('/:id', async (request, response) => {
-  // TODO
-});
+// transactionsRouter.delete('/:id', async (request, response) => {
+//   // TODO
+// });
 
-transactionsRouter.post('/import', async (request, response) => {
-  // TODO
-});
+// transactionsRouter.post('/import', async (request, response) => {
+//   // TODO
+// });
 
 export default transactionsRouter;
